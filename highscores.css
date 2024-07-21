@@ -1,0 +1,25 @@
+#highScoresList {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+    background-color: #f9f9f9;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 123, 255, 0.2);
+}
+
+.high-score {
+    font-size: 3.5rem; /* Increased font size */
+    margin-bottom: 1rem; /* Increased margin for better spacing */
+    color: #007bff; /* Vibrant color for text */
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient background */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: transform 150ms, background-color 150ms;
+}
+
+.high-score:hover {
+    transform: scale(1.05);
+    background-color: #e9ecef; /* Lighter background on hover */
+    color: #0056b3; /* Darker color on hover */
+}
